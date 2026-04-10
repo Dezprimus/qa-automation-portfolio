@@ -1,4 +1,4 @@
-# Desmon QA  Portfolio
+# Desmond QA  Portfolio
 
 ## 📌 Project Overview
 This project is a QA Automation practice framework built using SauceDemo as the application under test. It demonstrates core QA skills including manual test design, UI automation planning, Page Object Model (POM) structure, and debugging-oriented test development.
@@ -10,13 +10,13 @@ The goal of this project is to simulate real-world QA workflows including test c
 # 📁 Folder Structure
 
 QA-Portfolio-Practice/
-- automation/config -> Constants containing resuable data such as URLS and user accounts
-- automation/pages -> Page fills where locators and functions are stored
-- automation/tests/pytest -> Test scripts
-- automation/tests/debug -> Debug versions of the test scripts 
-- bug-reports/ -> Screenshots of bug reports
-- test-cases/ -> Test cases for login and cart
-- test-plans/ Test plan for project detail strategy, objective and more
+- `automation/config` -> Constants containing resuable data such as URLS and user accounts
+- `automation/pages` -> Page fills where locators and functions are stored
+- `automation/tests/pytest` -> Test scripts
+- `automation/tests/debug` -> Debug versions of the test scripts 
+- `bug-reports/` -> Screenshots of bug reports
+- `test-cases/` -> Test cases for login and cart
+- `test-plans/` Test plan for project detail strategy, objective and more
 
 ---
 
