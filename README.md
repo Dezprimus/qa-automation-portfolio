@@ -1,4 +1,4 @@
-# Desmond QA  Portfolio
+# Desmond's QA  Portfolio
 
 ## 📌 Project Overview
 This project is a QA Automation practice framework built using SauceDemo as the application under test. It demonstrates core QA skills including manual test design, UI automation planning, Page Object Model (POM) structure, and debugging-oriented test development.
