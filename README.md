@@ -1,22 +1,22 @@
 # Desmond's QA  Portfolio
 
 ## 📌 Project Overview
-This project is a QA Automation practice framework built using SauceDemo as the application under test. It demonstrates core QA skills including manual test design, UI automation planning, Page Object Model (POM) structure, and debugging-oriented test development.
+This project is a QA Automation framework built using SauceDemo as the application under test. It demonstrates core QA skills, including manual test design, UI automation planning, Page Object Model (POM) structure, and debugging-oriented test development.
 
-The goal of this project is to simulate real-world QA workflows including test case design, automation structure, and defect reporting.
+The goal of this project is to simulate real-world QA workflows, including test case design, automation structure, and defect reporting.
 
 ---
 
 # 📁 Folder Structure
 
 QA-Portfolio-Practice/
-- `automation/config` -> Constants containing resuable data such as URLS and user accounts
+- `automation/config` -> Constants containing reusable data such as URLS and user accounts
 - `automation/pages` -> Page fills where locators and functions are stored
 - `automation/tests/pytest` -> Test scripts
 - `automation/tests/debug` -> Debug versions of the test scripts 
 - `bug-reports/` -> Screenshots of bug reports
 - `test-cases/` -> Test cases for login and cart
-- `test-plans/` Test plan for project detail strategy, objective and more
+- `test-plans/` Test plan for project detail strategy, objective, and more
 
 ---
 
@@ -34,7 +34,7 @@ Git & GitHub (version control)
 
 This framework follows the Page Object Model (POM) design pattern.
 
-Why POM is used:
+Why is POM used:
 - Separates test logic from UI selectors
 - Improves maintainability
 - Reduces duplication
@@ -77,12 +77,12 @@ Coverage:
 Precondition: User is on SauceDemo login page  
 
 Steps:
-1. Enter valid username (standard_user)
-2. Enter valid password (secret_sauce)
-3. Click Login button  
+1. Enter a valid username (standard_user)
+2. Enter a valid password (secret_sauce)
+3. Click the Login button  
 
 Expected Result:
-User is redirected to Inventory page and products are visible
+User is redirected to the Inventory page, and products are visible
 
 ---
 
@@ -91,13 +91,13 @@ User is redirected to Inventory page and products are visible
 Precondition: User is on SauceDemo login page  
 
 Steps:
-1. Enter valid username (standard_user)
-2. Enter invalid password
-3. Click Login button  
+1. Enter a valid username (standard_user)
+2. Enter an invalid password
+3. Click the Login button  
 
 Expected Result:
 Error message is displayed: “Epic sadface: Username and password do not match any user in this service.”  
-User remains on login page
+User remains on the login page
 
 ---
 
@@ -115,13 +115,13 @@ Coverage:
 
 User selects product from inventory  
 Product appears in cart badge  
-Item is visible in cart page  
+The item is visible on the cart page  
 
 ---
 
 ## ❌ Empty Cart State
 
-User navigates to cart without adding items  
+User navigates to the cart without adding items  
 Cart displays empty state  
 No items shown  
 
